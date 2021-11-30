@@ -1,0 +1,11 @@
+.Main-Container {
+  margin-top: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .Main-Container--grid {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

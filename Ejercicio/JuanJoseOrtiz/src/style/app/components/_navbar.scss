@@ -1,0 +1,39 @@
+.Navbar {
+    width: 100%;
+    border: 1px solid #cecece;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    .Navbar-Container {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Navbar-List {
+        display: flex;
+        li {
+            padding: 15px 13px;
+            cursor: pointer;
+        }
+        
+    }
+    .Navbar-Input {
+        border: 1px solid #cecece;
+        border-radius: 4px;
+        width: 280px;
+        padding: 12px;
+
+    }
+
+    .Navbar-Img{
+        img{
+            width: 120px;
+            cursor: pointer;
+        }
+    }
+
+}
